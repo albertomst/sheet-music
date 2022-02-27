@@ -9,7 +9,7 @@ melody = \relative {
   \time 3/4
 
 mi''4( mi) si
-do8 mi fa4 la\staccato
+do8( mi fa4) la\staccato
 do,2( si4)
 do8( mi la,4) do\staccato
 mi( mi) si
