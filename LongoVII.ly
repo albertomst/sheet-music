@@ -11,6 +11,9 @@
 
   \new Staff
   \relative {
+
+  \override Score.SpacingSpanner.strict-note-spacing = ##t
+  \set Score.proportionalNotationDuration = #(ly:make-moment 1/12)
 \time 3/4
 
     mi''4( mi) si
