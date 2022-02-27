@@ -7,6 +7,9 @@
 
 \language "italiano"
 
+\new StaffGroup <<
+
+  \new Staff
   \relative {
 \time 3/4
 
@@ -41,17 +44,24 @@ fa,( re') r4
 do,(^V la') r4
 si,( sold') r4
 la2.~^I-IV-VI la^I
+\bar "|."
   }
-  }
+  
 
 
 \new PianoStaff <<
   \set PianoStaff.instrumentName = #"Piano"
+ 
   \new Staff { do''2.}
+ 
+ 
+ 
   \new Staff { do''2. }
 
+>>
 >>
 
 
   \layout {}
   \midi {}
+}
