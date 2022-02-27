@@ -38,9 +38,9 @@ mi(^III la) r4
 sold,(^V mi') r4
 la,(^VI do) r4
 fa,( re') r4
-do,(^V la) r4
+do,(^V la') r4
 si,( sold') r4
-la~^I-IV-VI la^I
+la2.~^I-IV-VI la^I
   }
   }
 
