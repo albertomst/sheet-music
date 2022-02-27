@@ -6,16 +6,11 @@
 
 
 \language "italiano"
-  
-  
-  
-  \NewStaffGroup <<
 
-  \newStaff <<
-  \relative do'' {
+  \relative {
 \time 3/4
 
-    mi4( mi) si
+    mi''4( mi) si
 do8 mi fa4 la\staccato
 do,2( si4)
 do8( mi la,4) do\staccato
@@ -47,16 +42,16 @@ do,(^V la) r4
 si,( sold') r4
 la~^I-IV-VI la^I
   }
-  
->>
+  }
+
+
 \new PianoStaff <<
   \set PianoStaff.instrumentName = #"Piano"
   \new Staff { do''2.}
   \new Staff { do''2. }
 
 >>
->>
-}
+
+
   \layout {}
   \midi {}
-}
