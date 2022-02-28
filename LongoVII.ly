@@ -17,7 +17,7 @@
 \time 3/4
 
     mi''4( mi) si
-do8 mi fa4 la\staccato
+do8( mi fa4) la\staccato
 do,2( si4)
 do8( mi la,4) do\staccato
 mi( mi) si
@@ -55,11 +55,27 @@ la2.~^I-IV-VI la^I
 \new PianoStaff <<
   \set PianoStaff.instrumentName = #"Piano"
  
-  \new Staff { do''2.}
+  \new Staff { do''2.
+
+  
+  }
  
  
+ \new Staff 
  
-  \new Staff { do''2. }
+ \absolute { 
+ \clef bass 
+  
+  la4 r2
+  r2.
+  r2.
+  r2.
+  re4 mi2
+  la, r4
+  r2.
+  r2.
+
+   }
 
 >>
 >>
