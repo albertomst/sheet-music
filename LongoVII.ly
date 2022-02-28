@@ -66,11 +66,11 @@ la2.~^I-IV-VI la^I
  \absolute { 
  \clef bass 
   
-  la4 r2
-  r2.
-  r2.
-  r2.
-  re4 mi2
+  la,4 si,2
+  la,4 re2  
+  r4 mi2
+  la,2.
+  re4 mi4 mi,
   la, r4
   r2.
   r2.
