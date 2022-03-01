@@ -80,9 +80,31 @@ la2.~^I-IV-VI la^I
   do8( si, la,4) r4
   mi4 r4 red
   mi2 r4
-  
-
-
+  do4 r2
+  sol4 r2
+  r2.
+  re4( mi fa)
+  r2.
+  fa4 r2
+  sol4 r2
+  do4( re mi)
+  fa4 r2
+  si,4( do re)
+  mi4 r4 sold,4
+  la,( si, do)
+  la, mi sold,
+  la, r4 fa
+  mi mi, r4
+  la,4 r2
+  fa4( mi re)
+  do r4 r4 
+  si r4 r4
+  fa r4 r4  
+  re r4 r4 
+  mi4 r2
+  mi,4 r2
+  la4 re fa
+  la2.
 
    }
 
