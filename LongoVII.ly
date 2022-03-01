@@ -80,7 +80,19 @@ la2.~^I-IV-VI la^I
   <mi la do> r4 <mi si' si>
   <mi la do> r4 <fa la re>
   <mi la do>2( <mi sold si>4)
-  <do mi la>4 r4 r4
+  <do mi la>4 r4 <mi la do>
+  <re la' re>( <mi la do> <fa la re>)
+  r4 r4 <mi la mi'>\staccato
+  r4 r4 <sold si mi>\staccato
+  r4 r4 <la la do>\staccato
+  r4 r4 <fa la re>\staccato
+  r4 r4 <do mi la>\staccato
+  r4 r4 <si mi sold>\staccato
+  <do mi la>( <re fa la> <do fa la>
+  <do mi la>2.)
+
+
+
 
 
   }
@@ -118,7 +130,7 @@ la2.~^I-IV-VI la^I
   la,4 r2
   fa4( mi re)
   do r4 r4 
-  si, r4 r4
+  mi, r4 r4
   fa r4 r4  
   re r4 r4 
   mi4 r2
