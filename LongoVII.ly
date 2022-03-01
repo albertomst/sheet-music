@@ -13,7 +13,7 @@
   \relative {
 
   \override Score.SpacingSpanner.strict-note-spacing = ##t
-  \set Score.proportionalNotationDuration = #(ly:make-moment 1/12)
+  \set Score.proportionalNotationDuration = #(ly:make-moment 1/10)
 \time 3/4
 
     mi''4( mi) si
