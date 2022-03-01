@@ -55,9 +55,15 @@ la2.~^I-IV-VI la^I
 \new PianoStaff <<
   \set PianoStaff.instrumentName = #"Piano"
  
-  \new Staff { do''2.
+  \new Staff {
+  \relative {
+  r2 <mi' sold si>4
+  <mi la do>4 r4 <fa la re>
+  r4 <mi la do> <mi sold si>
+  <do mi la> r2
 
-  
+
+  }
   }
  
  
@@ -66,14 +72,17 @@ la2.~^I-IV-VI la^I
  \absolute { 
  \clef bass 
   
-  la,4 si,2
-  la,4 re2  
-  r4 mi2
-  la,2.
-  re4 mi4 mi,
-  la, r4
-  r2.
-  r2.
+  la,4 si4 r4
+  la,4 re4 r4  
+  r4 mi4 mi,4
+  la,4 r2
+  la,4 mi( re)
+  do8( si, la,4) r4
+  mi4 r4 red
+  mi2 r4
+  
+
+
 
    }
 
