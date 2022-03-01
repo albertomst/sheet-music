@@ -71,7 +71,7 @@ la2.~^I-IV-VI la^I
   <fa la re>( <mi la dod> <re la' re>)
   r2.
   r4 <fa la do>4 r4
-  
+  r4 <re sol si> 
 
   }
   }
@@ -96,7 +96,7 @@ la2.~^I-IV-VI la^I
   re4( mi fa)
   r2.
   fa4 r2
-  sol4 r2
+  sol4 r4 si,4
   do4( re mi)
   fa4 r2
   si,4( do re)
