@@ -61,7 +61,17 @@ la2.~^I-IV-VI la^I
   <mi la do>4 r4 <fa la re>
   r4 <mi la do> <mi sold si>
   <do mi la> r2
-
+  r4 r4 <si mi sold>4
+  <do mi la>2 r4
+  r4 <mi sol si> <fad fad si>
+  <mi sol si>2 r4
+  r4 r4 <mi sol do>
+  r4 <re sol si> r4
+  <mi sol do> r4 <mi la mi'>
+  <fa la re>( <mi la dod> <re la' re>)
+  r2.
+  r4 <fa la do>4 r4
+  
 
   }
   }
@@ -72,7 +82,7 @@ la2.~^I-IV-VI la^I
  \absolute { 
  \clef bass 
   
-  la,4 si4 r4
+  la,4 mi4 r4
   la,4 re4 r4  
   r4 mi4 mi,4
   la,4 r2
@@ -81,8 +91,8 @@ la2.~^I-IV-VI la^I
   mi4 r4 red
   mi2 r4
   do4 r2
-  sol4 r2
-  r2.
+  sol4 r4 r4
+  do4 r4 dod4
   re4( mi fa)
   r2.
   fa4 r2
