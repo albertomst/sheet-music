@@ -1,3 +1,9 @@
+\header {
+
+title = "Basso Tematico IV"
+composer= "A. di Martino"
+
+}
 
 global = {
   \language "italiano"  \key  re \major
