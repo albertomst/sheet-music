@@ -6,7 +6,8 @@ composer= "A. di Martino"
 }
 
 global = {
-  \language "italiano"  \key  re \major
+  \language "italiano" 
+\key  re \major
   \time 3/4
 }
 
@@ -94,5 +95,6 @@ la2.~ la2.~ la2. re2.
       }
     >>
     >>
-
 }
+    \midi { }
+
