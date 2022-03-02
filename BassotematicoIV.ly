@@ -10,8 +10,18 @@ global = {
   \time 3/4
 }
 
-sopMusic = \relative do'' {
-  do1
+sopMusic = \absolute {
+
+r2.
+r2.
+r2.
+r2.
+r2.
+\transpose re la' {
+re8( mi fad sol la sol fad4) sol2~(
+sol8 fad re fad la4~ la sold sol fad2)}
+
+
 }
 
 altoMusic = \relative do' {
