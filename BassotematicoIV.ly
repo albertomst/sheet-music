@@ -1,4 +1,5 @@
 \paper {
+
   top-system-spacing #'basic-distance = #10
   score-system-spacing #'basic-distance = #20
   system-system-spacing #'basic-distance = #20
@@ -56,7 +57,10 @@ la2.~ la2.~ la2. re2.
 
 \score {
   \new ChoirStaff <<
-    
+  
+  \override Score.SpacingSpanner.strict-note-spacing = ##t
+  \set Score.proportionalNotationDuration = #(ly:make-moment 1/10)
+
     \new Staff = "women" <<
       \new Voice = "sopranos" {
         \voiceOne
