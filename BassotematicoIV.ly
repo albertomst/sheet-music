@@ -1,10 +1,3 @@
-\paper {
-
-  top-system-spacing #'basic-distance = #10
-  score-system-spacing #'basic-distance = #20
-  system-system-spacing #'basic-distance = #20
-  last-bottom-spacing #'basic-distance = #10
-}
 
 global = {
   \language "italiano"  \key  re \major
@@ -29,7 +22,9 @@ altoMusic = \relative do' {
 
 r2.
 r2.
-r4 r8 re8 mi fad~ fad red mi
+r4 r8 re8 mi fad~ fad red mi4. dod8
+re4 mi fad
+mi4 la si la
 
 
 }
@@ -37,7 +32,8 @@ tenorMusic = \relative do' {
   r4 re2~
   re8 la re dod si dod
   re2 dod4 si2 la4 re dod si 
-
+  dod8 re mi fad mi4~ mi re8 dod si4
+  la
 
 
 }
@@ -74,18 +70,18 @@ la2.~ la2.~ la2. re2.
     \new Staff = "women" <<
       \new Voice = "sopranos" {
         \voiceOne
-        << \global \sopMusic >>
+        <<\global \sopMusic >>
       }
       \new Voice = "altos" {
         \voiceTwo
-        << \global \altoMusic >>
+        <<\global \altoMusic >>
       }
     >>
     \new Staff = "men" <<
       \clef bass
       \new Voice = "tenors" {
         \voiceOne
-        << \global \tenorMusic >>
+        <<\global \tenorMusic >>
       }
       \new Voice = "basses" {
         \voiceTwo << \global \bassMusic >>
