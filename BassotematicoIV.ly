@@ -21,7 +21,9 @@ r2.
 \transpose re la' {
 re8( mi fad sol la sol fad4) sol2~(
 sol8 fad re fad la4~ la sold sol fad4)} 
-\relative { re'' dod si }
+\relative { dod'' do si 
+
+}
 
 }
 
@@ -30,17 +32,20 @@ altoMusic = \relative do' {
 r2.
 r2.
 r4 r8 la'4 sol8~
-sol8 fad4 mi8 re dod
+sol8 fad4 mi4 dod8
 re[ mi fad sol] fad4
 mi8 re dod re mi fad
-la sol fad4
+la sol fad4 si~
+si8 la8 fad4~ fad8 mi
+la4 si8 la sold4 mi
 
 }
 tenorMusic = \relative do' {
   r4 re2~
   re8 la re dod si dod
   re2 dod4 si2 la4 re4. dod8 re4 
-  dod8 re mi fad mi4~ mi re8 dod si4
+  dod8 re mi fad mi4~ mi re8 red mi4~
+  mi4 dod si dod
   
 
 
@@ -48,8 +53,8 @@ tenorMusic = \relative do' {
 bassMusic = \relative do {
   
 
-re8( mi fad sol la sol fad4) sol2~(
-sol8 fad re fad la4~ la sold sol fad2) re4
+re8(_I mi fad sol la sol fad4)_III sol2~(_IV
+sol8_III fad re fad la4~_V la sold sol fad2) re4
 la'2( sold4 la si8[ la] sold[ fad16 sold] la2) sold4
 fad4 si2~ si8[ mi,] la2~ la8 re, sol[( fad mi re)]
 dod4 fad8( mi re dod) si4.( re8 fad[ mi])
