@@ -29,18 +29,19 @@ altoMusic = \relative do' {
 
 r2.
 r2.
-r4 r8 re8 mi fad~ fad red mi4. dod8
-re4 mi fad
-mi4 la si la
-
+r4 r8 la'4 sol8~
+sol8 fad4 mi8 re dod
+re[ mi fad sol] fad4
+mi8 re dod re mi fad
+la sol fad4
 
 }
 tenorMusic = \relative do' {
   r4 re2~
   re8 la re dod si dod
-  re2 dod4 si2 la4 re dod si 
+  re2 dod4 si2 la4 re4. dod8 re4 
   dod8 re mi fad mi4~ mi re8 dod si4
-  la
+  
 
 
 }
