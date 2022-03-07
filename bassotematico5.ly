@@ -1,4 +1,3 @@
-
 global = {
   \key c \minor
   \time 4/2
@@ -6,7 +5,19 @@ global = {
 }
 
 sopMusic = \relative do'' {
-  r1
+  r\breve
+  r
+  r
+
+  
+  \transpose do sol' {
+ \relative {
+ \key do \minor 
+r2 do mib lab
+fad sol do,1~
+do2 sib la re
+}
+}
 }
 
 altoMusic = \relative do' {
