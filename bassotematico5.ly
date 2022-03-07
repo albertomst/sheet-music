@@ -1,7 +1,8 @@
 global = {
-  \key c \minor
-  \time 4/2
   \language "italiano"
+  \key do \minor
+  \time 4/2
+  
 }
 
 sopMusic = \relative do'' {
