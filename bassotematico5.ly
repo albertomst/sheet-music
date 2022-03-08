@@ -1,4 +1,3 @@
-\version "2.18.2"
 \header {
 title= "Basso Tematico 5"
 }
@@ -15,7 +14,6 @@ r\breve
   r
   r
 
-  
   \transpose do sol' {
      \relative {
    
@@ -25,7 +23,7 @@ do2 sib lab\)}
 } r2
 r2 fa, lab reb
 si do fa, sol
-la sol fa mi?
+lab sol fa mi?
 fa
 
 
@@ -33,13 +31,13 @@ fa
 
 altoMusic = \relative do' {
 r\breve
-r4 lab' sol fa mib re mib do
+r4 la' sol fa mib re mib do
 re1 dod2 do
 sib1 r4 sib' la sol 
 la1 r4 sol fa mib
-re2 sib1 reb2
-do1 reb~
-reb2 do2~ do4 reb re mi
+re2 do sib reb
+do2 r4 do fa mib reb2
+re2 do2~ do4 reb re mi
 fa2 mi do1
 do
 }
@@ -50,9 +48,12 @@ r\breve
 r\breve
 r\breve
 r\breve
-r4 mib re do sib2. do8 sib
+r4 mi re do sib2. do8 sib
 la2 lab sol1
-lab\breve
+lab1 r4 do sib lab
+sol2. lab8 sib do1
+do1. sib2
+lab
 
 }
 
@@ -87,7 +88,7 @@ do
       \new Voice = "sopranos" {
         \voiceOne
         << \global \sopMusic >>
-      }
+        }
       \new Voice = "altos" {
         \voiceTwo
         << \global \altoMusic >>
@@ -108,5 +109,5 @@ do
 
 	\layout{}
 	\midi{}
-
-}
+	
+	}
