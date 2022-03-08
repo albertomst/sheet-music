@@ -1,3 +1,4 @@
+\version "2.18.2"
 \header {
 title= "Basso Tematico 5"
 }
@@ -67,8 +68,8 @@ fa\breve~\(
 fa2 mi4 fa8 sol lab2 sol
 do2. sib4 lab2 sol\)
 fa4\( fa, fa'2~ fa4 mi mib re\)
-r4 lab\( lab'2~ lab4 sol solb2~
-fad\) sol do, do'~
+r4 lab\( lab'2~ lab4 sol solb2(
+fad)\) sol do, do'~
 do4 fa, sib2( sib4) mib, lab2~
 lab4 re, sol1 fa4( mi)
 re2 re'\( sol,2. la8 sib
@@ -103,8 +104,9 @@ do
       }
     >>
     >>
-}
+
 
 	\layout{}
 	\midi{}
 
+}
