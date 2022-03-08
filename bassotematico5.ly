@@ -35,7 +35,7 @@ r4 la' sol fa mib re mib do
 re1 dod2 do
 sib1 r4 sib' la sol 
 la1 r4 sol fa mib
-re2 do sib reb
+re do sib1 reb2
 do2 r4 do fa mib reb2
 re2 do2~ do4 reb re mi
 fa2 mi do1
