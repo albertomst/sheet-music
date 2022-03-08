@@ -20,17 +20,13 @@ r\breve
 do''2. do4 si2 mi
 la, re1 do2~
 do si1 la2
-\transpose do sol' {
-\relative {
+sol1~ 4 fad sol la
+si1~ 4 do si la
+sol2 si do1~
+2 si la2. si8 la
+sol2. la8 sol fa4 sol fa re
+mi2
 
-r1 
-do2 mi fa1~
-fa2 mi re2. mi8 re
-do2. re8 do sib2. sib4
-la2
-
-}
-}
 }
 
 altoNotes=
@@ -43,8 +39,9 @@ re, sol1 fa2~
 fa mi1 re2
 do2 mi sol1~
 sol2 fa mi2. fa8 mi
-re2. mi8 re do2. do4
-si4 sol la si do re mi fad
+re2. mi8 re do4 re do la
+si4 la si do re1~
+4 do re mi fad1
 sol2. sol4 mi2 la2
 re, sol1 fa2~
 fa mi1 re2
