@@ -7,6 +7,7 @@ global = {
   \key do \minor
   \time 4/2
   \tempo 2=80
+  \override Staff.NoteHead.style = #'baroque
 }
 
 sopMusic = \relative do'' {
@@ -23,8 +24,8 @@ do2 sib lab\)}
 } r2
 r2 fa, lab reb
 si do fa, sol
-lab sol fa mi?
-fa
+lab sol2. fa4 mi?2
+fa1
 
 
 }
@@ -33,22 +34,21 @@ altoMusic = \relative do' {
 r\breve
 r4 la' sol fa mib sol fa mib
 re1 dod2 do
-sib1 r4 sib' la sol 
-la1 r4 sol fa mib
-re2 sib1 do2~
-do2 r4 do fa mib reb2
+sib\breve
+r4 mi re do re1
+do1 sib1
+lab2 r4 do fa mib reb2
 re?2 do2~ do4 reb re mi
 fa2 mi do1
 do
 }
 
 tenorMusic = \relative do' {
-\override Staff.NoteHead.style = #'baroque
 do\breve~
-do2 si4 do8 re mib2 sol,
+ do2 si4 do8 re mib2 sol,
 la2 sol1 fad2
-sol\breve
-r4 mi' re do sib2. do8 sib
+sol1 r4 sib la sol
+la2. sol8 fad sol1
 la2 lab sol1
 lab1 r4 do sib lab
 sol2. lab8 sib do1
@@ -61,7 +61,6 @@ bassMusic = \relative do {
 r2 do\( mib lab
 fad sol do,1~
 do2 sib la re
-\override Staff.NoteHead.style = #'baroque
 sol,\breve~
 sol2 fad4 sol8 la sib2 la?\)
 re1\( mib2 mi\)
