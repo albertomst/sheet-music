@@ -6,7 +6,7 @@ global = {
   \language "italiano"
   \key do \minor
   \time 4/2
-  
+  \tempo 2=80
 }
 
 sopMusic = \relative do'' {
@@ -31,24 +31,24 @@ fa
 
 altoMusic = \relative do' {
 r\breve
-r4 la' sol fa mib re mib do
+r4 la' sol fa mib sol fa mib
 re1 dod2 do
 sib1 r4 sib' la sol 
 la1 r4 sol fa mib
-re do sib1 reb2
+re2 sib1 do2~
 do2 r4 do fa mib reb2
-re2 do2~ do4 reb re mi
+re?2 do2~ do4 reb re mi
 fa2 mi do1
 do
 }
 
 tenorMusic = \relative do' {
-
-r\breve
-r\breve
-r\breve
-r\breve
-r4 mi re do sib2. do8 sib
+\override Staff.NoteHead.style = #'baroque
+do\breve~
+do2 si4 do8 re mib2 sol,
+la2 sol1 fad2
+sol\breve
+r4 mi' re do sib2. do8 sib
 la2 lab sol1
 lab1 r4 do sib lab
 sol2. lab8 sib do1
