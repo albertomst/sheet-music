@@ -25,9 +25,11 @@ do2 sib lab\)}
 r2 fa, lab reb
 si do fa, sol
 lab sol2. fa4 mi?2
-fa1
-
-
+fa2 lab reb si
+do1 reb2 do~
+do2. si4 do re mib2
+re2. sol,4 do2. fa,4 sib2. mi,4 la2. sol4
+fa2
 }
 
 altoMusic = \relative do' {
@@ -40,20 +42,36 @@ re2 do sib4 reb do sib
 lab2 r4 do fa mib reb2
 re?2 do2~ do4 reb re mi
 fa2 mi do1
-do
+do2 reb1 re2
+mib2 fa sib la~
+la4 lab sol1 sol2
+lab2 sol1 fa2~
+fa2 mi1 re4 dod
+re2
+
 }
+
+
 
 tenorMusic = \relative do' {
 do\breve~
- do2 si4 do8 re mib2 sol,
+do2 si4 do8 re mib2 sol,
 la2 sol1 fad2
 sol1 r4 sib la sol
 la2. sol8 fad sol2 la?
 sib4 sib la4 lab sol1
 fa1 r4 do' sib lab
 sol2. lab8 sib do1
-do1. sib2
-lab
+do1.. sib4
+lab1 sib4 lab sol2
+lab2 do fa re
+mib re 
+
+
+
+
+
+
 
 }
 
